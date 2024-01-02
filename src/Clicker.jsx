@@ -1,6 +1,6 @@
 export default function Clicker({message, buttonText}){
     function handleClick(){
-        alert(JSON.stringify(message))
+        alert(message)
     }
     
     return(
